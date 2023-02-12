@@ -72,11 +72,11 @@
       </div>
       <div class="prize">
         <span>奖品4</span>
-        <p>微信红包520元</p>
+        <p>微信红包20元</p>
       </div>
       <div class="prize">
         <span>奖品5</span>
-        <p>红包20元</p>
+        <p>辣条一包</p>
       </div>
       <div class="prize">
         <span>奖品6</span>
@@ -137,7 +137,7 @@ export default {
     };
   },
   created() {
-    this.status = ['09910', '08761', '07364', '07360', '87784', '93930', '787631', '8938381', '83830', '11220', '88991', '77331', '88333', '87877341', '8484840', 'aaaad1', 'bbbbbc0', '77kfk0', '77471', '84884841', '9999990', '888883', '819191813', '9999900003', '888776663']
+    this.status = ['o1', 'p1', '123122', '3333334', 'ee1', 'xx0', 'kk0', 'ooo3', 'dsadsa1', 'dvvfdvdf3', '32323234', 'ccc2', 'llll3', 'ffffs1', '333334', 'lflfl4', 'kgkvmfhj4', '99999944', 'vcvxvcxv1', 'fsdgdgdf1', 'lvlvlvl2', 'lglglgl4', 'djgjgjg4', 'gkgkgkgk3']
     this.myPrizeList = JSON.parse(localStorage.getItem('table')) || []
     const haveSmoked = JSON.parse(localStorage.getItem('hand')) || []
     let commonValues = this.status.filter(value => !haveSmoked.includes(value));
